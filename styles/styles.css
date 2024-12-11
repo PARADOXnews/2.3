@@ -59,3 +59,55 @@
    vertical-align: middle;
 
 }
+
+#main {
+   margin-top: 142px;
+   text-align:center;
+}
+
+#image,#image img {
+   max-width:610px;
+   width: 100%;
+   display:inline-block;
+   vertical-align: middle;
+}
+
+
+
+#textdiv {
+   max-width:644px;
+   width:100%;
+   display:inline-block;
+   vertical-align: middle;
+   margin-left:45px;
+}
+
+#textp {
+   margin-top:15px;
+   margin-bottom:20px;
+   font-size: 20px;
+}
+
+#li21,#li22,#li23,#li24,ol {
+   text-align:left;
+   margin-bottom:10px;
+   font-size: 24px;
+}
+
+
+
+#contactdiv{}
+
+#infobox {
+   border-radius: 16px;
+   background: #F7F4FF;
+}
+
+#marcxena {
+   border-radius:16px;
+}
+
+.address {
+   
+}
+
