@@ -62,70 +62,104 @@
 
 #main {
    margin-top: 142px;
-   text-align:center;
+   text-align: center;
 }
 
-#image,#image img {
-   max-width:610px;
+#image,
+#image img {
+   max-width: 610px;
    width: 100%;
-   display:inline-block;
+   display: inline-block;
    vertical-align: middle;
 }
 
 
 
 #textdiv {
-   max-width:644px;
-   width:100%;
-   display:inline-block;
+   max-width: 644px;
+   width: 100%;
+   display: inline-block;
    vertical-align: middle;
-   margin-left:45px;
+   margin-left: 45px;
 }
 
 #textp {
-   margin-top:15px;
-   margin-bottom:20px;
+   margin-top: 15px;
+   margin-bottom: 20px;
    font-size: 20px;
 }
 
-#li21,#li22,#li23,#li24,ol {
-   text-align:left;
-   margin-bottom:10px;
+#li21,
+#li22,
+#li23,
+#li24,
+ol {
+   text-align: left;
+   margin-bottom: 10px;
    font-size: 24px;
 }
 
 
-#text2 {width:905px;
-margin:0 auto}
+#text2 {
+   width: 905px;
+   margin: 0 auto;
+   margin-bottom:28px;
+}
 
-#contactdiv{}
+#contactdiv {
+   margin-top:83px;
+}
 
 #infobox {
    border-radius: 16px;
    background: #F7F4FF;
-   max-width:1221px;
-   width:100%;
-   margin:0 auto;
-}
-
-#marcxena {
-   border-radius:16px;
-   max-width:403px;
-   width:100%;
-}
-
-.icon {
-   display:inline-block;
-   vertical-align:middle;
-}
-
-.textdiv{
-   vertical-align:middle;
-   display:inline-block;
+   max-width: 1221px;
+   width: 100%;
+   margin: 0 auto;
+   padding:32px;
    text-align:left;
 }
 
-.address {
-
+#marcxena {
+   border-radius: 16px;
+   max-width: 403px;
+   width: 100%;
+   background-color:#fff;
+   padding:20px;
+   height:474px;
+   display:inline-block;
 }
 
+.information {
+   margin-bottom:25px;
+}
+
+.icon {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.textdiv {
+   vertical-align: middle;
+   display: inline-block;
+   text-align: left;
+}
+
+.address {
+   margin-bottom:5px;
+}
+
+#name,#mail {
+   color: #6D5F8B;
+padding: 8px 16px;
+font-size: 14px;
+border-radius: 8px;
+border: 1px solid #8E26C0;
+display:block;
+margin-top:10px;
+margin-bottom:30px;
+}
+
+#marjvena {
+   display:inline-block;
+}
