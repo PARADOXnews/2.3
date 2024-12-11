@@ -95,19 +95,37 @@
 }
 
 
+#text2 {width:905px;
+margin:0 auto}
 
 #contactdiv{}
 
 #infobox {
    border-radius: 16px;
    background: #F7F4FF;
+   max-width:1221px;
+   width:100%;
+   margin:0 auto;
 }
 
 #marcxena {
    border-radius:16px;
+   max-width:403px;
+   width:100%;
+}
+
+.icon {
+   display:inline-block;
+   vertical-align:middle;
+}
+
+.textdiv{
+   vertical-align:middle;
+   display:inline-block;
+   text-align:left;
 }
 
 .address {
-   
+
 }
 
