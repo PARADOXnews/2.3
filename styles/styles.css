@@ -103,11 +103,11 @@ ol {
 #text2 {
    width: 905px;
    margin: 0 auto;
-   margin-bottom:28px;
+   margin-bottom: 28px;
 }
 
 #contactdiv {
-   margin-top:83px;
+   margin-top: 83px;
 }
 
 #infobox {
@@ -116,22 +116,24 @@ ol {
    max-width: 1221px;
    width: 100%;
    margin: 0 auto;
-   padding:32px;
-   text-align:left;
+   padding: 32px;
+   text-align: left;
 }
 
 #marcxena {
    border-radius: 16px;
    max-width: 403px;
    width: 100%;
-   background-color:#fff;
-   padding:20px;
-   height:474px;
-   display:inline-block;
+   background-color: #fff;
+   padding: 20px;
+   height: 474px;
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 20px;
 }
 
 .information {
-   margin-bottom:25px;
+   margin-bottom: 25px;
 }
 
 .icon {
@@ -146,20 +148,80 @@ ol {
 }
 
 .address {
-   margin-bottom:5px;
+   margin-bottom: 5px;
 }
 
-#name,#mail {
+#name,
+#mail,
+#textarea {
    color: #6D5F8B;
-padding: 8px 16px;
-font-size: 14px;
-border-radius: 8px;
-border: 1px solid #8E26C0;
-display:block;
-margin-top:10px;
-margin-bottom:30px;
+   padding: 8px 16px;
+   font-size: 14px;
+   border-radius: 8px;
+   border: 1px solid #8E26C0;
+   display: block;
+   margin-top: 10px;
+   margin-bottom: 30px;
+   width: 698px;
+}
+
+#textarea {
+   margin-top: 40px;
+   height: 122px;
 }
 
 #marjvena {
-   display:inline-block;
+   display: inline-block;
 }
+
+#marjvena h2 {
+   font-size: 32px;
+   margin-bottom: 16px;
+}
+
+#send {
+   text-align:right;
+}
+
+#sendbtn {
+   width: 140px;
+   padding: 12px 24px;
+   border-radius: 8px;
+background-color: #8E26C0;
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+}
+
+footer {
+   margin-top:163px;
+   height: 480px;
+padding: 64px 0px 48px 0px;
+background-color: #53389E;
+}
+
+#shortcuts {
+   height: 240px;
+
+padding: 0px 32px;
+display:inline-block;
+vertical-align:middle;
+ margin-right:32px;
+}
+
+.ul {
+  display:inline-block;
+}
+
+.texti {
+   width:fit-content
+}
+
+#footer {
+ height: 240px;
+ max-width:1280px;
+ width:100%;
+ margin:0 auto;
+ color: #E9D7FE;
+ }
+
