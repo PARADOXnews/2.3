@@ -180,72 +180,97 @@ ol {
 }
 
 #send {
-   text-align:right;
+   text-align: right;
 }
 
 #sendbtn {
    width: 140px;
    padding: 12px 24px;
    border-radius: 8px;
-background-color: #8E26C0;
-color: #FFF;
-font-family: Inter;
-font-size: 16px;
+   background-color: #8E26C0;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 16px;
 }
 
 footer {
-   margin-top:163px;
+   margin-top: 163px;
    height: 480px;
-padding: 64px 0px 48px 0px;
-background-color: #53389E;
+   padding: 64px 0px 48px 0px;
+   background-color: #53389E;
 }
 
 .shortcuts {
    height: 240px;
-   width:176px;
-padding: 0px 32px;
-display:inline-block;
-vertical-align:middle;
- margin-right:32px;
+   width: 176px;
+   padding: 0px 32px;
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 32px;
 }
 
 .ul {
-  display:inline-block;
-  color: #E9D7FE;
-  list-style-type:none;
+   display: inline-block;
+   color: #E9D7FE;
+   list-style-type: none;
 }
 
 .li {
-   margin-bottom:12px;
-   vertical-align:middle
+   margin-bottom: 12px;
+   vertical-align: middle
 }
 
 #new {
-   padding-right:20px;
-   display:inline-block;
+   padding-right: 20px;
+   display: inline-block;
 }
 
 #span {
-   border-radius:6px;
-border: 1px solid rgba(255, 255, 255, 0.30);
-background: rgba(255, 255, 255, 0.10);
-padding:2px 6px;
-display:inline-block;
-vertical-align:middle;
-margin-left:9px;
+   border-radius: 6px;
+   border: 1px solid rgba(255, 255, 255, 0.30);
+   background: rgba(255, 255, 255, 0.10);
+   padding: 2px 6px;
+   display: inline-block;
+   vertical-align: middle;
+   margin-left: 9px;
 }
 
 .texti {
-   width:fit-content;
+   width: fit-content;
    color: #D6BBFB;
-   margin-bottom:16px;
+   margin-bottom: 16px;
 }
 
-#footer {
- height: 240px;
- max-width:1280px;
- width:100%;
- margin:0 auto;
- 
- }
+#topfooter {
+   height: 240px;
+   max-width: 1280px;
+   width: 100%;
+   margin: 0 auto;
 
+}
+
+#bottomfooter {
+   color: white;
+   max-width: 1280px;
+   width: 100%;
+   margin: 0 auto;
+   padding:0 32px;
+   margin-top:64px;
+}
+
+#border {
+   border-top: 1px solid #7F56D9;
+   padding-top:32px;
+}
+
+#fimg {
+   display: inline-block;
+   vertical-align: middle;
+   margin-right:807px;
+}
+
+
+
+#fp {
+   display:inline-block;
+}
